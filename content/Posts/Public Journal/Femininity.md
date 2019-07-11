@@ -1,10 +1,16 @@
 ---
-title: "Unkown Date"
+
+title: On Femininity
 date: 2019-07-09T21:25:05-04:00
-draft: false
+description: ""
+categories: [Public Journal]
+type:
+- post
+- posts
+
 ---
 
-## On Femeninity
+# On Femeninity
 
 Well I feel less pressure yeah. I feel like I can breathe and just focus on being my best me.
 

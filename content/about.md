@@ -1,10 +1,12 @@
 ---
+
 title: "About"
 date: 2019-07-09T01:43:06-04:00
-draft: true
+draft: false
+
 ---
 
-## Cogito Ergo Femme
+# Cogito Ergo Femme
 
 A poor translation of: I think there I Femme.
 

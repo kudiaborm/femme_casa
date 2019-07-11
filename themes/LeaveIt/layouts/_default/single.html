@@ -1,14 +1,14 @@
 {{ define "content" -}}
 {{ $cdn_url := .Scratch.Get "cdn_url" }}
-<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+<article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">{{ .Title }}</h1>
+        <h1 class="post-title">{{ .Title }}</h1>
         <div class="post-meta">
-                Written by <a itemprop="name" href="{{.Site.BaseURL }}" rel="author">{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}</a> with ♥ 
+            {{ i18n "Written" }} {{ i18n "by" }} <a href="{{.Site.BaseURL }}" rel="author">{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}</a> {{ i18n "with" }} ♥ 
                 <span class="post-time">
-                on <time datetime={{.Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} itemprop="datePublished">{{ .Date.Format (.Site.Params.dateFormatToUse | default "January 2, 2006") }}</time>
+                    {{ i18n "on" }} <time datetime={{.Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} >{{ .Date.Format (.Site.Params.dateFormatToUse | default "2 January 2006") }}</time>
                 </span>
-                in
+                {{ i18n "in" }}
                 {{ with .Params.categories -}}
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
@@ -20,6 +20,8 @@
                         {{ end }}
                 </span>
                 {{- end }}
+                <i class="iconfont icon-timer"></i>
+                {{.ReadingTime }} min
         </div>
     </header>
     <div class="post-content">
@@ -50,19 +52,25 @@
     <div class="post-copyright">
             {{ with .Site.Params.author }} 
             <p class="copyright-item">
-                <span>Author:</span>
+                <span>{{ i18n "Author" }}:</span>
                 <span>{{ . }} </span>
                 </p>
             {{ end }}
            
-            {{ with .Permalink }} 
             <p class="copyright-item">
-                    <span>Link:</span>
-                    <a href={{ . }}>{{ . }}</span>
+                    <span>{{ i18n "Words" }}:</span>
+                   <span>{{ .WordCount }}</span>
             </p>
-            {{ end }}
+            
+            <p class="copyright-item">
+                {{ if and ( $.Param "socialShare" ) (gt (len ($.Param "social")) 0) }}
+                <span>{{ i18n "social" }}:</span>
+                <span>{{ partial "share-links" . }}</span>
+                {{ end }}
+            </p>
+
             {{ with .Site.Params.license }} 
-            <p class="copyright-item lincese">
+            <p class="copyright-item">
                 {{ . | safeHTML}}
             </p>
             {{ end }}
@@ -72,7 +80,7 @@
     <div class="post-tags">
         {{ with .Params.tags }}
             <section>
-            <i class="iconfont icon-tag"></i>Tag(s): 
+            <i class="iconfont icon-icon-tag"></i>{{ i18n "Tag" }}: 
             {{ range . }}
             <span class="tag"><a href="{{ "tags/" | absURL }}{{ . | urlize }}/">
                     #{{.}}</a></span>
@@ -80,26 +88,25 @@
             </section>
         {{ end }}
         <section>
-                <a href="javascript:window.history.back();">back</a></span> · 
-                <span><a href="{{ .Site.BaseURL }}">home</a></span>
+                <a href="javascript:window.history.back();">{{ i18n "back" }}</a></span> · 
+                <span><a href="{{ .Site.BaseURL }}">{{ i18n "Home" }}</a></span>
         </section>
     </div>
 
     <div class="post-nav">
         {{ if .PrevInSection }}
-        <a href="{{.PrevInSection.Permalink}}" class="prev" rel="prev" title="{{ .PrevInSection.Title}}"><i class="iconfont icon-left"></i>&nbsp;{{ .PrevInSection.Title}}</a>
+        <a href="{{.PrevInSection.Permalink}}" class="prev" rel="prev" title="{{ .PrevInSection.Title}}"><i class="iconfont icon-dajiantou"></i>&nbsp;{{ .PrevInSection.Title}}</a>
         {{ end }} 
         {{ if .NextInSection }}
-        <a href="{{.NextInSection.Permalink}}" class="next" rel="next" title="{{.NextInSection.Title}}">{{.NextInSection.Title}}&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="{{.NextInSection.Permalink}}" class="next" rel="next" title="{{.NextInSection.Title}}">{{.NextInSection.Title}}&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
         {{ end }}
     </div>
 
     <div class="post-comment">
           {{ if ( .Params.showComments | default true ) }}
-                 {{ if ne .Site.DisqusShortname "" }}
-                     {{ template "_internal/disqus.html" . }}
-                 {{ end }}
+          {{ partial "comments.html" . }}
           {{ end }}
     </div>
 </article>
 {{- end }}
+

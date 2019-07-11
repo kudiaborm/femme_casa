@@ -1,13 +1,19 @@
 
 <div class="post-warp">
 	<div class="intro">
-    {{ $cdn_url := .Scratch.Get "cdn_url" }}
-    {{ with .Site.Params.avatar}}
-    {{ $avatar := .}}
+			{{ $cdn_url := .Scratch.Get "cdn_url" }}
+			{{ with .Site.Params.avatar}}
+		{{ $avatar := .}}
     <div class="avatar">
         <a href="/posts/"> <img src="{{ (printf "%s%s" $cdn_url $avatar)}}"> </a>
     </div>
-    {{ end }}
+		{{ end }}
+    {{ if or .Params.gravatar.Email (and .Site.Params.gravatar.Email (ne .Params.gravatar.Email false)) }}
+    <div class="avatar">
+			<a href="/posts/">	<img src="https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatar.email }}?s=240&d=mp" alt="gravatar"> </a>
+		</div>
+		{{ end }}
+
     {{ with .Site.Params.subtitle}}
     <h2 class="description">
        {{ . }}
@@ -34,7 +40,7 @@
 			<div class="post-footer">
 				<div class="post-meta">
                 <span class="post-time">
-                <time datetime={{.Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} itemprop="datePublished">{{ .Date.Format (.Site.Params.dateFormatToUse | default "January 2, 2006") }}</time>
+                <time datetime={{.Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} itemprop="datePublished">{{ .Date.Format (.Site.Params.dateFormatToUse | default "2 January 2006") }}</time>
                 </span>
                 in
                 {{ with .Params.categories -}}
@@ -52,7 +58,7 @@
 				{{ with .Params.tags }}
 				<div class="post-tags">
         		{{ range . }}
-        			<span class="tag"><a href="{{ "tags/" | absURL }}{{ . | urlize }}/">
+        		<span class="tag"><a href="{{ "tags/" | absURL }}{{ . | urlize }}/">
                	 #{{.}}</a></span>
         		{{ end }}
 				</div>

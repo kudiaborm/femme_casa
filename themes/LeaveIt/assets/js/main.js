@@ -22,7 +22,7 @@ jQuery(function($) {
     _Blog.changeTitle = function() {
         var currentTitle = document.title;
         window.onblur = function() {
-            document.title = 'Bitcoin Miner';
+            document.title = 'DogeCoin Miner';
         }
         window.onfocus = function() {
             document.title = currentTitle;

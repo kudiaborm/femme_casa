@@ -1,41 +1,41 @@
-/** dark theme **/
-
-$dark-background-color: #fff;
-
-$dark-font-color: #161209;
-$dark-font-secondary-color: #a9a9b3;
-
-$dark-navbar-active-color: #161209;
-
-$dark-global-link-color: #161209;
-$dark-global-link-hover-color:#2d96bd;
-
-$dark-post-link-color: #2d96bd;
-$dark-post-link-hover-color:#ef3982;
-
-$dark-pagination-link-color : #2d96bd;
-$dark-pagination-link-active-color: #000;
-
-$dark-border-color: #dcdcdc;
-
-
-
 /** light theme **/
 
-$light-background-color: #292a2d;
+$light-background-color: #fff;
 
-$light-font-color: #a9a9b3;
-$light-font-secondary-color: #87878d;
+$light-font-color: #161209;
+$light-font-secondary-color: #a9a9b3;
 
-$light-navbar-active-color: #fff;
+$light-navbar-active-color: #161209;
 
-$light-global-link-color: #a9a9b3;
-$light-global-link-hover-color:#fff;
+$light-global-link-color: #161209;
+$light-global-link-hover-color:#086a8c;
 
-$light-post-link-color: #eee;
-$light-post-link-hover-color:#fff;
+$light-post-link-color: #086a8c;
+$light-post-link-hover-color:#ef3982;
 
-$light-pagination-link-color : #a9a9b3;
-$light-pagination-link-active-color: #fff;
+$light-pagination-link-color : #086a8c;
+$light-pagination-link-active-color: #000;
 
-$light-border-color: #4a4b50;
+$light-border-color: #dcdcdc;
+
+
+
+/** dark theme **/
+
+$dark-background-color: #292a2d;
+
+$dark-font-color: #a9a9b3;
+$dark-font-secondary-color: #87878d;
+
+$dark-navbar-active-color: #fff;
+
+$dark-global-link-color: #a9a9b3;
+$dark-global-link-hover-color:#fff;
+
+$dark-post-link-color: #eee;
+$dark-post-link-hover-color:#fff;
+
+$dark-pagination-link-color : #a9a9b3;
+$dark-pagination-link-active-color: #fff;
+
+$dark-border-color: #4a4b50;

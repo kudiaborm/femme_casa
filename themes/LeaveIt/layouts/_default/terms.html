@@ -6,7 +6,7 @@
 {{ $type := .Type }}
 <!-- Categories Page -->
 <div class="post-warp {{.Data.Plural}}">
-    <h2 class="post-title" style="text-align:right;padding-bottom:2em">-&nbsp;{{ .Data.Plural | humanize }}&nbsp;-</h2>
+    <h2 class="post-title" style="text-align:right;padding-bottom:2em">Adwoa's Blog</h2>
 {{ if and $.Site.Taxonomies.categories (eq $termName "categories") }}
 
 <div class="categories-card">
@@ -15,12 +15,14 @@
     {{ $pages := .Pages }}
     {{ with $.Site.GetPage "taxonomy" (printf "%s/%s" $type $term) }}
          <div class="card-item">
-           <div class="categories" >
+           <div class="categories-title" >
              <a href="{{ .Permalink }}"><h3> <i class="iconfont icon-folder" style="padding-right: 3px"></i> {{ $term | humanize}}  </h3> </a>
                {{ range first 5 $pages }}   
-                <article class="archive-item">
+                <div class="archive-item">
                 <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>
-                </article>
+                <br>
+                <a class="archive-item-description" href="{{ .Permalink }}" >{{ .Description }}</a>
+                </div>
               {{ end }}
                {{ if gt (len $pages) 5 }}
                   <span class="more-post">

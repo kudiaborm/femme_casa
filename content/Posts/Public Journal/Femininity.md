@@ -2,7 +2,7 @@
 
 title: On Femininity
 date: 2019-07-09T21:25:05-04:00
-description: ""
+description: Flow of conciousness entry about being a trans woman
 categories: [Public Journal]
 type:
 - post

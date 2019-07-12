@@ -1,8 +1,6 @@
 .post-warp {
 
-    .archive-item {
-        margin-left: 2rem;
-    }
+
 
     .categories-card {
         margin: 0 auto;
@@ -10,19 +8,19 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         padding: 0 2.5em;
         line-height: 1.6em;
 
         .card-item {
-            font-size: 14px;
+            font-size: 18px;
             text-align: left;
-            width: 45%;
+            width: 100%;
             display: flex;
             align-items: flex-start;
             margin-top:2em;
-            min-height: 16em;
+            min-height: 4em;
             padding: 0 2%;
             position: relative;
 
@@ -30,6 +28,17 @@
                 overflow: hidden;
             }
         }
+        .categories-title {
+            width: 95%;
+            padding: 0 
+        }
+
+
+    }
+
+    .archive-item {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
     }
 
     .archive-item-link {
@@ -39,6 +48,7 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         max-width: 95%;
+        font-size: 100;
         &:hover {
             color: $light-global-link-hover-color;
             background-color: transparent;
@@ -56,6 +66,7 @@
             }
         }
     }
+
     .archive-item-date {
         float: right;
         text-align: right;
@@ -64,6 +75,11 @@
         .dark-theme & {
             color: $dark-font-secondary-color;
         }
+    }
+
+    .archive-item-description {
+        font-size: 14px;
+            padding: 0 5%;
     }
 
     .more-post {

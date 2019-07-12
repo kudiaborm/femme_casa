@@ -1,0 +1,67 @@
+
+@font-face {font-family: "iconfont";
+  src: url('./iconfont.eot?t=1540738544101'); /* IE9*/
+  src: url('./iconfont.eot?t=1540738544101#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./iconfont.svg?t=1540738544101#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-flickr:before { content: "\e654"; }
+
+.icon-tag:before { content: "\e6fd"; }
+
+.icon-linkedin:before { content: "\e698"; }
+
+.icon-mail:before { content: "\e759"; }
+
+.icon-search:before { content: "\e627"; }
+
+.icon-mail01:before { content: "\e642"; }
+
+.icon-wechat:before { content: "\e68b"; }
+
+.icon-facebook:before { content: "\e601"; }
+
+.icon-twitter:before { content: "\eb2a"; }
+
+.icon-love:before { content: "\e745"; }
+
+.icon-github:before { content: "\e712"; }
+
+.icon-pinterest:before { content: "\e7bf"; }
+
+.icon-up:before { content: "\e750"; }
+
+.icon-left:before { content: "\e60a"; }
+
+.icon-folder:before { content: "\e638"; }
+
+.icon-close:before { content: "\e6d5"; }
+
+.icon-dribbble:before { content: "\e696"; }
+
+.icon-instagram:before { content: "\e6b6"; }
+
+.icon-tumblr:before { content: "\e61f"; }
+
+.icon-telegram:before { content: "\e731"; }
+
+.icon-xihuan:before { content: "\e86f"; }
+
+.icon-xihuan1:before { content: "\e870"; }
+
+.icon-right:before { content: "\e6dd"; }
+
+.icon-medium-circle-fill:before { content: "\e887"; }
+
+.icon-mastodon:before { content: "\e900"; }
+
+

@@ -1,5 +1,5 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="https://www.w3.org/1999/xhtml">
   {{ range (where .Data.Pages "Section" "!=" "gallery") }}
     <url>
       <loc>{{ .Permalink }}</loc>

@@ -1,4 +1,4 @@
-baseURL = "http://femme.casa/"
+baseURL = "https://femme.casa/"
 languageCode = "en-us"
 title = "Femme.casa"
 theme = "LeaveIt"

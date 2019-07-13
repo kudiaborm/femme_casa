@@ -1,7 +1,7 @@
 {{ if .IsHome -}}
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "WebSite",
   "url": "{{ .Site.BaseURL }}",
   {{ if .Site.Author.name -}}
@@ -28,13 +28,13 @@
 {{/*
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "http://example.com/search?&q={query}",
+    "target": "https://example.com/search?&q={query}",
     "query-input": "required"
   } */}}
 {{- else if .IsPage -}}
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "{{ .Title }}",
   "mainEntityOfPage": {

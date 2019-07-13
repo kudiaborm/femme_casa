@@ -35,8 +35,8 @@ Disallow: /
 User-agent: Perl LWP
 Disallow: /
 
-# Block netEstate NE Crawler (+http://www.website-datenbank.de/)
-User-agent: netEstate NE Crawler (+http://www.website-datenbank.de/)
+# Block netEstate NE Crawler (+https://www.website-datenbank.de/)
+User-agent: netEstate NE Crawler (+https://www.website-datenbank.de/)
 Disallow: /
 
 # Block WiseGuys Robot

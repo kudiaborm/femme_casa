@@ -1,6 +1,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .navbar {
         display: none;
+        background-color: #fff4f5;
     }
 
     .navbar-mobile {
@@ -8,13 +9,14 @@
         position: fixed;
         width: 100%;
         z-index: 100;
+        background-color: #fff4f5;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
         transition: all 0.6s ease 0s;
         .container {
             padding: 0;
             margin: 0;
             height: 5em;
-            line-height: 5.5em;
-            background: $light-background-color;
+            line-height: 5em;
             .navbar-header {
                 display: flex;
                 justify-content: space-between;
@@ -82,12 +84,12 @@
 
             .menu {
                 text-align: center;
-                background: #ffffff;
-                border-top: 2px solid #000000;
+                background: #fff4f5;
                 padding-top: 1em;
                 padding-bottom: 1em;
                 display: none;
-                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.1);
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+
                 a {
                     display: block;
                     line-height: 2.5em;

@@ -11,7 +11,7 @@
 
   
 .navbar .menu a {
-  font-family: 'monotype-modern-display';
+  font-family: 'Lora Regular';
   padding: 0 8px;
 }
 
@@ -22,6 +22,14 @@
 }
 
 .navbar-mobile .site-title {
+
+  font-family: 'Lora Regular Italic';
+  font-size: 18px;
+  font-weight: 300;
+}
+
+
+.navbar-mobile .menu a {
 
   font-family: 'Lora Regular Italic';
   font-size: 18px;

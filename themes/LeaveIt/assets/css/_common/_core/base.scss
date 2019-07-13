@@ -1,5 +1,57 @@
 /** Font **/
 
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * masqualero:
+ *   - http://typekit.com/eulas/00000000000000003b9b201c
+ *   - http://typekit.com/eulas/00000000000000003b9b201d
+ *   - http://typekit.com/eulas/00000000000000003b9b2022
+ *   - http://typekit.com/eulas/00000000000000003b9b2025
+ *
+ * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-07-13 04:06:46 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=tbr0pzq&ht=tk&f=39452.39453.39458.39461&a=26583528&app=typekit&e=css");
+
+@font-face {
+font-family:"masqualero";
+src:url("https://use.typekit.net/af/21f8d4/00000000000000003b9b201c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/21f8d4/00000000000000003b9b201c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/21f8d4/00000000000000003b9b201c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"masqualero";
+src:url("https://use.typekit.net/af/67c426/00000000000000003b9b201d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/67c426/00000000000000003b9b201d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/67c426/00000000000000003b9b201d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"masqualero";
+src:url("https://use.typekit.net/af/df555e/00000000000000003b9b2022/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/df555e/00000000000000003b9b2022/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/df555e/00000000000000003b9b2022/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"masqualero";
+src:url("https://use.typekit.net/af/077ea4/00000000000000003b9b2025/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/077ea4/00000000000000003b9b2025/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/077ea4/00000000000000003b9b2025/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"monotype-modern-display";
+src:url("https://use.typekit.net/af/2182a7/00000000000000003b9b2030/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/2182a7/00000000000000003b9b2030/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/2182a7/00000000000000003b9b2030/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+.tk-masqualero { font-family: "masqualero",sans-serif; }
+.tk-monotype-modern-display { font-family: "monotype-modern-display",sans-serif; }
+
+
 /* josefin-sans-regular */
 @font-face {
     font-family: "Josefin Sans";
@@ -97,22 +149,38 @@
     }
 
     h2 {
-      font-family: "Lora Regular";
+      font-size: 2.75em;
+      font-family: "Lora Regular Italic";
       font-weight: 400;
     }
 
     h3 {
-      font-family: "Merriweather";
+      font-family: "monotype-modern-display";
+      font-weight: 300;
+      font-size: 1.75em;
     }
 
     h4 {
-      font-family: Merriweather;
-      font-size: 12px;
+      font-family: masqualero;
+      font-size: 1.1em;
+      font-weight: 400;
     }
 
-    p {
-      font-family: "MerriWeather Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft Yahei", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
+    h5 {
+      font-family: masqualero;
+      font-size: 1.1em;
+      font-weight: 400;
+      margin-top: auto;
     }
+
+
+    p {
+      font-family: masqualero;
+      font-size: 1.1em;
+      font-weight: 400;
+    }
+
+
   }
   
   body {

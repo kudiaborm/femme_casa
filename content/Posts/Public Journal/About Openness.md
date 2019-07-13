@@ -1,7 +1,9 @@
 ---
 
-title: "About Openness"
+title: About Openness
 date: 2019-07-12T22:11:14-04:00
+categories: [Public Journal]
+description: I battle with being open with my friends about my identity
 type:
 - post
 - posts

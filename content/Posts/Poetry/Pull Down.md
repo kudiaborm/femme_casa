@@ -3,7 +3,7 @@
 title: Pull Down
 date: 2019-07-09T21:25:05-04:00
 categories: [Poetry]
-description: "A poem about social media"
+description: "A poem about social media addiction"
 type:
 - post
 - posts

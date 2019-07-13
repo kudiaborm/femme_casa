@@ -1,6 +1,6 @@
 baseURL = "https://femme.casa/"
 languageCode = "en-us"
-title = "Femme.casa"
+title = "femme.casa"
 theme = "LeaveIt"
 
 paginate = 12

@@ -3,7 +3,7 @@
 title: Fear
 date: 2019-07-09T21:25:05-04:00
 categories: [Poetry]
-description: "I'm afraid of myself"
+description: "Fear drives me"
 type:
 - post
 - posts

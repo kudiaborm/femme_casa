@@ -2,7 +2,7 @@
 
 
 
-    .categories-card {
+    .card-section {
         margin: 0 auto;
         margin-top: 1em;
         display: flex;
@@ -10,18 +10,14 @@
         justify-content: space-between;
         flex-direction: column;
         flex-wrap: wrap;
-        padding: 0 2.5em;
         line-height: 1.6em;
 
         .card-item {
-            font-size: 18px;
             text-align: left;
             width: 100%;
-            display: flex;
             align-items: flex-start;
             margin-top:2em;
             min-height: 4em;
-            padding: 0 2%;
             position: relative;
 
             .categories{
@@ -29,29 +25,43 @@
             }
         }
         .categories-title {
-            width: 95%;
-            padding: 0 
+            font-size: 1.5em;
+            margin-bottom: 1rem;
         }
 
 
     }
 
     .archive-item {
-        margin-left: 2rem;
+        margin-top: .25rem;
         margin-bottom: 1rem;
-    }
+        width: 100%;
 
-    .archive-item-link {
-        display: inline-block;
-        text-decoration: none;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        max-width: 95%;
-        font-size: 100;
-        &:hover {
-            color: $light-global-link-hover-color;
-            background-color: transparent;
+            ul,
+            li {
+                position: relative;
+
+            }
+
+            ul {
+                width: 100%;
+                list-style-type: none;
+            }
+
+            li {
+                width: auto;
+            }
+
+        .archive-item-link {
+            display: inline-block;
+            text-decoration: none;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 100;
+            &:hover {
+                color: $light-global-link-hover-color;
+                background-color: transparent;
         }
 
         .dark-theme & {
@@ -79,12 +89,14 @@
 
     .archive-item-description {
         font-size: 14px;
-        padding: 0 5%;
     }
 
     .more-post {
         text-align: right;
     }
+
+    }
+
 }
 
 .categories {

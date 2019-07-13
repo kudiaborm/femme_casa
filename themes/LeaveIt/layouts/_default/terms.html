@@ -9,27 +9,31 @@
     <h2 class="post-title">Adwoa's Blog</h2>
 {{ if and $.Site.Taxonomies.categories (eq $termName "categories") }}
 
-<div class="categories-card">
+<div class="card-section">
 {{ range $terms }}
     {{ $term := .Term }}
     {{ $pages := .Pages }}
     {{ with $.Site.GetPage "taxonomy" (printf "%s/%s" $type $term) }}
          <div class="card-item">
-           <div class="categories-title" >
-             <a href="{{ .Permalink }}"><h3> <i class="iconfont icon-folder" style="padding-right: 3px"></i> {{ $term | humanize}}  </h3> </a>
-               {{ range first 5 $pages }}   
-                <div class="archive-item">
-                <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>
-                <br>
-                <a class="archive-item-description" href="{{ .Permalink }}" >{{ .Description }}</a>
-                </div>
-              {{ end }}
-               {{ if gt (len $pages) 5 }}
-                  <span class="more-post">
-                    <a href="{{ .Permalink }}" class="more-post-link">{{ i18n "More" }}  >></a>
-               </span> 
-               {{ end }}
-           </div>
+            <div class="categories-title" >
+              <a href="{{ .Permalink }}">
+              <h2>{{ $term | humanize}}</h2>
+              </a>
+            </div>
+            {{ range first 5 $pages }}   
+            <div class="archive-item">
+            <ul>
+            <li><a href="{{ .Permalink }}" class="archive-item-link"><h3>{{ .Title }}</h3></a></li>
+            <li><hr style="width: 40%;"></li>
+            <li><a class="archive-item-description" href="{{ .Permalink }}" ><h4>{{ .Description }}</h4></a></li>
+            </ul>
+            </div>
+          {{ end }}
+           {{ if gt (len $pages) 5 }}
+              <span class="more-post">
+                <a href="{{ .Permalink }}" class="more-post-link">{{ i18n "More" }}  >></a>
+           </span> 
+           {{ end }}
         </div>
     {{ end }}
 {{ end }}

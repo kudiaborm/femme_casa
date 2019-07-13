@@ -69,7 +69,7 @@
   /* Legacy iOS */
   }
   
- 
+
   
   html {
     &::-webkit-scrollbar {
@@ -92,13 +92,22 @@
   
   html {
     h1 {
-      font-family: "Merriweather";
-      font-weight: 400;
+      font-family: "Lora Regular Italic";
+      font-weight: 500;
     }
 
     h2 {
-      font-family: "Lora Regular Italic";
-      font-weight: 500;
+      font-family: "Lora Regular";
+      font-weight: 400;
+    }
+
+    h3 {
+      font-family: "Merriweather";
+    }
+
+    h4 {
+      font-family: Merriweather;
+      font-size: 12px;
     }
 
     p {
@@ -203,3 +212,10 @@
       border-color: $dark-border-color;
     }
   }
+
+.vr {
+    height: 30px;
+    width: 1px;
+    background-color:#00000066;
+
+}

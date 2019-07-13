@@ -1,9 +1,12 @@
-----
+---
 
 title: Estradiol a Slave
 date: 2019-02-01T21:25:05-04:00
-categories: ["Poetry"]
-description: A conflict of convictions
+categories: [Poetry]
+description: "A conflict of convictions"
+type:
+- post
+- posts
 
 ---
 

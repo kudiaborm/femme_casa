@@ -19,7 +19,7 @@
 
     .archive-item {
         margin-top: .25rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
         width: 100%;
 
             ul,
@@ -35,6 +35,7 @@
 
             li {
                 width: auto;
+                max-height: 2.1em;
             }
 
         .archive-item-link {
@@ -43,7 +44,6 @@
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-            font-size: 100;
             &:hover {
                 color: $light-global-link-hover-color;
                 background-color: transparent;
@@ -76,9 +76,6 @@
         }
     }
 
-    .archive-item-description {
-        font-size: 14px;
-    }
 
     .more-post {
         text-align: right;

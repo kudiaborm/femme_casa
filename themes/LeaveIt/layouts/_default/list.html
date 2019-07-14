@@ -1,20 +1,22 @@
 {{ define "content" }}
 {{ $data := .Data }}
 <div class="post-warp archive">
-    <h1 class="post-title">{{ .Title }}</h1>
+    <h2 class="post-title">{{ .Title }}</h2>
     {{ range (.Paginate (.Pages.GroupByDate "January 2006")).PageGroups }}
     <div class="page-section">
         <div class="section-title"><h2>{{ .Key }}</h2></div>
 
         {{ range .Pages }}
-        <div class="archive-item">
+            <div class="archive-item">
+            <a href="{{ .Permalink }}">
             <ul>
-                <li><a href="{{ .Permalink }}" class="archive-item-link"><h3>{{ .Title }}</h3></a></li>
-                <li><hr style="width: 40%;"></li>
-                <li><a class="archive-item-description" href="{{ .Permalink }}" ><h5>{{ .Description }}</h5></a></li>
+            <li><div class="archive-item-link"><h3>{{ .Title }}</h3></div></li>
+            <li><hr></li>
+            <li><div class="archive-item-description" ><h5>{{ .Description }}</h5></div></li>
             </ul>
-        {{ end }}
-        </div>
+            </a>
+            {{ end }}
+            </div>
     </div>
 </div>
     {{ end }}

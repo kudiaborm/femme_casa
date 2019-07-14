@@ -10,7 +10,7 @@
                 </span>
                 {{ i18n "in" }}
                 {{ with .Params.categories -}}
-                <i class="iconfont icon-folder"></i>
+                |
                 <span class="post-category">
                         {{ range . }}
                         {{- $name := . -}}
@@ -20,7 +20,7 @@
                         {{ end }}
                 </span>
                 {{- end }}
-                <i class="iconfont icon-timer"></i>
+                |
                 {{.ReadingTime }} min
         </div>
     </header>

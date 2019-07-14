@@ -12,13 +12,17 @@
   
 .navbar .menu a {
   font-family: 'Lora Regular';
+  font-size: 1.15em;
   padding: 0 8px;
+  color: $light-global-link-hover-color;
+
 }
 
 .navbar .site-title {
 
   font-family: 'Lora Regular Italic';
-  font-size: 18px;
+  font-size: 1.75em;
+  color: $light-global-link-hover-color;
 }
 
 .navbar-mobile .site-title {
@@ -38,7 +42,7 @@
 
 .navbar .menu .active{
     text-decoration: underline;
-    color: $light-navbar-active-color;
+    color: $light-global-link-hover-color;
 
     .dark-theme &{
       color: $dark-navbar-active-color;

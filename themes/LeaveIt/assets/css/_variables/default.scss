@@ -1,6 +1,6 @@
 /** light theme **/
 
-$light-background-color: #fcf7e3;
+$light-background-color: #FCFCF5;
 
 $light-font-color: #161209;
 $light-font-secondary-color: #a9a9b3;
@@ -8,13 +8,13 @@ $light-font-secondary-color: #a9a9b3;
 $light-navbar-active-color: #161209;
 
 $light-global-link-color: #161209;
-$light-global-link-hover-color:#086a8c;
+$light-global-link-hover-color: #91453D;
 
-$light-post-link-color: #086a8c;
-$light-post-link-hover-color:#ef3982;
+$light-post-link-color: #C75F54;
+$light-post-link-hover-color: $light-global-link-hover-color;
 
-$light-pagination-link-color : #086a8c;
-$light-pagination-link-active-color: #000;
+$light-pagination-link-color : #C75F54;
+$light-pagination-link-active-color: #C75F54;
 
 $light-border-color: #dcdcdc;
 

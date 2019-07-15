@@ -1,7 +1,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .navbar {
         display: none;
-        background-color: #fff4f5;
+        background-color: #fff0f3;
     }
 
     .navbar-mobile {
@@ -9,7 +9,7 @@
         position: fixed;
         width: 100%;
         z-index: 100;
-        background-color: #fff4f5;
+        background-color: #fff0f3;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
         transition: all 0.6s ease 0s;
         .container {
@@ -33,7 +33,7 @@
 
                     span {
                         display: block;
-                        background: #000;
+                        background: $light-global-link-hover-color;
                         width: 36px;
                         height: 2px;
                         -webkit-border-radius: 3px;
@@ -44,7 +44,7 @@
                         transition: .25s margin .25s, .25s transform;
 
                         .dark-theme & {
-                            background: $dark-font-color;
+                            background: $light-global-link-hover-color;
                         }
                     }
 

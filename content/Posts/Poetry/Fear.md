@@ -10,8 +10,6 @@ type:
 
 ---
 
-# Not quite sure
-
 
 I'm so tired
 

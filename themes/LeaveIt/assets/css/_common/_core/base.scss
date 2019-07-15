@@ -1,38 +1,40 @@
-/** Font **/
-
 /*
  * The Typekit service used to deliver this font or fonts for use on websites
  * is provided by Adobe and is subject to these Terms of Use
  * http://www.adobe.com/products/eulas/tou_typekit. For font license
  * information, see the list below.
  *
+ * essonnes-display:
+ *   - http://typekit.com/eulas/00000000000000003b9ada64
+ *   - http://typekit.com/eulas/00000000000000003b9ada65
+ * essonnes-headline:
+ *   - http://typekit.com/eulas/00000000000000003b9ada6a
  * masqualero:
- *   - http://typekit.com/eulas/00000000000000003b9b201c
- *   - http://typekit.com/eulas/00000000000000003b9b201d
- *   - http://typekit.com/eulas/00000000000000003b9b2022
  *   - http://typekit.com/eulas/00000000000000003b9b2025
+ * monotype-modern-display:
+ *   - http://typekit.com/eulas/00000000000000003b9b2030
  *
  * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
  */
-/*{"last_published":"2019-07-13 04:06:46 UTC"}*/
+/*{"last_published":"2019-07-15 01:29:42 UTC"}*/
 
-@import url("https://p.typekit.net/p.css?s=1&k=tbr0pzq&ht=tk&f=39452.39453.39458.39461&a=26583528&app=typekit&e=css");
+@import url("https://p.typekit.net/p.css?s=1&k=tbr0pzq&ht=tk&f=28132.28133.28138.39461.39472&a=26583528&app=typekit&e=css");
 
 @font-face {
-font-family:"masqualero";
-src:url("https://use.typekit.net/af/21f8d4/00000000000000003b9b201c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/21f8d4/00000000000000003b9b201c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/21f8d4/00000000000000003b9b201c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-font-style:normal;font-weight:700;
+font-family:"essonnes-display";
+src:url("https://use.typekit.net/af/6a5fe5/00000000000000003b9ada64/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/6a5fe5/00000000000000003b9ada64/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/6a5fe5/00000000000000003b9ada64/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-style:italic;font-weight:400;
 }
 
 @font-face {
-font-family:"masqualero";
-src:url("https://use.typekit.net/af/67c426/00000000000000003b9b201d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/67c426/00000000000000003b9b201d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/67c426/00000000000000003b9b201d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
-font-style:italic;font-weight:700;
+font-family:"essonnes-display";
+src:url("https://use.typekit.net/af/eaf59d/00000000000000003b9ada65/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/eaf59d/00000000000000003b9ada65/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/eaf59d/00000000000000003b9ada65/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-style:italic;font-weight:300;
 }
 
 @font-face {
-font-family:"masqualero";
-src:url("https://use.typekit.net/af/df555e/00000000000000003b9b2022/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/df555e/00000000000000003b9b2022/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/df555e/00000000000000003b9b2022/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-family:"essonnes-headline";
+src:url("https://use.typekit.net/af/71815a/00000000000000003b9ada6a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/71815a/00000000000000003b9ada6a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/71815a/00000000000000003b9ada6a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
 font-style:italic;font-weight:400;
 }
 
@@ -48,81 +50,12 @@ src:url("https://use.typekit.net/af/2182a7/00000000000000003b9b2030/27/l?primer=
 font-style:normal;font-weight:400;
 }
 
+.tk-essonnes-display { font-family: "essonnes-display",serif; }
+.tk-essonnes-headline { font-family: "essonnes-headline",serif; }
 .tk-masqualero { font-family: "masqualero",sans-serif; }
 .tk-monotype-modern-display { font-family: "monotype-modern-display",sans-serif; }
 
 
-/* josefin-sans-regular */
-@font-face {
-    font-family: "Josefin Sans";
-    font-style: normal;
-    font-weight: normal;
-    src: url("//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.eot");
-    /* IE9 Compat Modes */
-    src: local("Josefin Sans"), local("JosefinSans-Normal"), url("//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.eot?#iefix") format("embedded-opentype"), url("//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.woff2") format("woff2"), url("//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.woff") format("woff"), url("//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.ttf") format("truetype"), url("//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.svg#JosefinSans") format("svg");
-    /* Legacy iOS */
-  }
-  
-
-/* lora */ 
-  
-@font-face {
-    font-family: 'Lora Regular';
-    src: url('/font/Lora-Regular.eot');
-    src: url('/font/Lora-Regular.eot') format('embedded-opentype'),
-        url('/font/Lora-Regular.ttf') format('truetype'),
-        url('/font/Lora-Regular.svg#Lora-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Lora Regular Italic';
-    src: url('/font/Lora-Regular-Italic.eot');
-    src: url('/font/Lora-Regular-Italic.eot') format('embedded-opentype'),
-        url('/font/Lora-Regular-Italic.ttf') format('truetype'),
-        url('/font/Lora-Regular-Italic.svg#Lora-Regular-Italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-/* Merriweather */
-
-@font-face {
-    font-family: 'Merriweather';
-    src: url('/font/Merriweather-Light.eot');
-    src: url('/font/Merriweather-Light.eot?#iefix') format('embedded-opentype'),
-        url('/font/Merriweather-Light.ttf') format('truetype'),
-        url('/font/Merriweather-Light.svg#Merriweather-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Merriweather Sans';
-    src: url('/font/MerriweatherSans-Light.eot');
-    src: url('/font/MerriweatherSans-Light.eot?#iefix') format('embedded-opentype'),
-        url('/font/MerriweatherSans-Light.ttf') format('truetype'),
-        url('/font/MerriweatherSans-Light.svg#MerriweatherSans-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-
-
-/* pt-sans-regular */
-@font-face {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: normal;
-  src: url("//lib.baomitu.com/fonts/pt-sans/pt-sans-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("PT Sans"), local("PTSans-Normal"), url("//lib.baomitu.com/fonts/pt-sans/pt-sans-regular.eot?#iefix") format("embedded-opentype"), url("//lib.baomitu.com/fonts/pt-sans/pt-sans-regular.woff2") format("woff2"), url("//lib.baomitu.com/fonts/pt-sans/pt-sans-regular.woff") format("woff"), url("//lib.baomitu.com/fonts/pt-sans/pt-sans-regular.ttf") format("truetype"), url("//lib.baomitu.com/fonts/pt-sans/pt-sans-regular.svg#PTSans") format("svg");
-  /* Legacy iOS */
-  }
-  
-
-  
   html {
     &::-webkit-scrollbar {
       width: 8px;
@@ -144,16 +77,14 @@ font-style:normal;font-weight:400;
   
   html {
     h1 {
-      font-family: "Lora Regular Italic";
-      font-weight: 500;
+      font: italic 400 8em/.5em 'essonnes-display', serif;
       color: $light-global-link-hover-color;
 
     }
 
     h2 {
-      font-size: 2.75em;
-      font-family: "Lora Regular Italic";
-      font-weight: 400;
+
+      font: italic 300 4.1em/1.7em 'essonnes-display', serif;
       color: $light-global-link-hover-color;
 
     }

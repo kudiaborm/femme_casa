@@ -10,6 +10,6 @@ I think. Like a lot. I think about thinking. I think about thinking about thinki
 
 I'm open. But, if you know me in real life, you probably know nothing on this site. So this site is an attempt to change that.
 
-I'm Catholic. I'm trans. I like people. I like tech. I'm Black. I'm Hispanic. I love my natural hair. Those are the same thing. 
+I'm Catholic. I'm trans. I like people. I like tech. I love my natural hair. I'm Black. I'm Hispanic.  Those are the same thing. 
 
 I'm femme! ¡Bienvenidos a mi casa!

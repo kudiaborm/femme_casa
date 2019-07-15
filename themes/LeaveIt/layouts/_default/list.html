@@ -1,8 +1,8 @@
 {{ define "content" }}
 {{ $data := .Data }}
 <div class="post-warp archive">
-    <h2 class="post-title">{{ .Title }}</h2>
-    {{ range (.Paginate (.Pages.GroupByDate "January 2006")).PageGroups }}
+    <h2 class="list-title">{{ .Title }}</h2>
+    {{ range (.Paginate (.Pages.GroupByDate "Jan 2006")).PageGroups }}
     <div class="page-section">
         <div class="section-title"><h2>{{ .Key }}</h2></div>
 

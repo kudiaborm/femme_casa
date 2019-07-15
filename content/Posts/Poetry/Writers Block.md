@@ -7,5 +7,5 @@ description: When juices aren't flowing
 
 ---
 
-# Juice don't flow in the kitchen
-#     Bars don't burns on the grill
+ Juice don't flow in the kitchen
+     Bars don't burn on the grill

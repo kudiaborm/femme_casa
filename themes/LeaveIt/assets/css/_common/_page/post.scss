@@ -12,9 +12,9 @@
     }
 
     .post-title {
-        font-size: 4em;
-        line-height: 2em;
-        font-family: "Lora Regular Italic";
+
+        margin-top: .55em;
+        font: italic 400 4em/1.2em 'essonnes-display', serif;
         border-bottom: 1px solid #bdbdbd;
     }
 
@@ -39,19 +39,12 @@
         }
     }
 
+
+
     .post-content {
         padding-top: 2rem;
 
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            padding-top: .8em;
-            padding-bottom: .3em;
-        }
         h2::before {
-            content: "#";
             margin-right: 5px;
             color: $light-post-link-color;
             .dark-theme & {
@@ -60,7 +53,6 @@
         }
 
         h3::before {
-            content: "|";
             margin-right: 5px;
             color: $light-post-link-color;
 

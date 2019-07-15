@@ -10,5 +10,5 @@ type:
 
 ---
 
-# Bathroom stall doors are paper thin
-#                                 Just like my skin
+ Bathroom stall doors are paper thin
+                                 Just like my skin

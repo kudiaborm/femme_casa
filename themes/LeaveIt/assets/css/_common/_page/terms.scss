@@ -1,8 +1,12 @@
 .post-warp {
 
+    .terms-title {
+        font-weight: 400;
+        border-bottom: 1px solid #bdbdbd;
+    }
+
     .card-section {
         margin: 0 auto;
-        margin-top: 1em;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -14,16 +18,12 @@
             text-align: left;
             width: 100%;
             align-items: flex-start;
-            margin-top:2em;
             min-height: 4em;
             position: relative;
 
             .categories{
                 overflow: hidden;
             }
-        }
-        .categories-title {
-            margin-bottom: 2rem;
         }
 
 

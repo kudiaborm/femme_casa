@@ -11,8 +11,7 @@
 
   
 .navbar .menu a {
-  font-family: 'Lora Regular';
-  font-size: 1.15em;
+  font: normal 300 1.15em/.5em 'essonnes-display', serif;
   padding: 0 8px;
   color: $light-global-link-hover-color;
 
@@ -20,24 +19,24 @@
 
 .navbar .site-title {
 
-  font-family: 'Lora Regular Italic';
-  font-size: 1.75em;
+  font: italic 300 1.75em/.5em 'essonnes-display', serif;
   color: $light-global-link-hover-color;
 }
 
 .navbar-mobile .site-title {
 
-  font-family: 'Lora Regular Italic';
-  font-size: 18px;
-  font-weight: 300;
+  font: italic 300 1.7em/.5em 'essonnes-display', serif;
+  color: $light-global-link-hover-color;
+
 }
 
 
 .navbar-mobile .menu a {
 
-  font-family: 'Lora Regular Italic';
-  font-size: 18px;
-  font-weight: 300;
+  font: normal 400 1.2em/.5em 'essonnes-display', serif;
+  padding: 0 8px;
+  color: $light-global-link-hover-color;
+
 }
 
 .navbar .menu .active{
@@ -52,4 +51,10 @@
 .navbar-header a:hover, .navbar .menu a:hover {
   
   background-color: transparent;
+}
+
+.navbar-mobile .container .navbar-header .menu-toggle span {
+
+  background: $light-global-link-hover-color;
+
 }

@@ -10,8 +10,6 @@ type:
 
 ---
 
-# A poem about social media addiction
-
 
 Pull down to refresh
 
